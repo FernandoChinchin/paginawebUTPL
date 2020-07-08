@@ -1,0 +1,117 @@
+body {
+    font-family: "Lato", sans-serif;
+  
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 300;
+  }
+  
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  .navbar-nav a {
+    text-transform: uppercase;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #e08709;
+    color:black;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .dropdown-menu {
+    background-color: #71b100;
+  }
+  .dropdown-menu .dropdown-item {
+    color: white;
+  }
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #e08709;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .navbar-brand span {
+    font-weight: 900;
+  }
+  
+  .bloque-info p {
+    font-size: 1.4rem;
+  }
+  .bg-success {
+    background-color: #71b100 !important;
+  }
+  .btn-warning {
+    background-color: #e08709;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    border-color: #e08709;
+  }
+  
+  .encuentra {
+    background-image: url(../img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .encuentra .container .row {
+    height: 25rem;
+  }
+  .encuentra h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+  }
+  
+  .noticia {
+  }
+  .noticia h3::after {
+    content: "";
+    display: block;
+    width: 8rem;
+    height: 0.2rem;
+    background-color: #71b100;
+    clear: both;
+    margin-top: 0.5rem;
+  }
+  .noticia span {
+    color: #e08709;
+  }
+  .btn-success {
+    background-color: #71b100;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .btn-success:hover {
+    background-color: #639c02;
+  }
+  
+  .bg-dark {
+    background-color: #333333 !important;
+  }
